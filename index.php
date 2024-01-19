@@ -14,10 +14,10 @@
             }
 
             // Konexioa sortu
-            $servername = "mysql";
-            $database = "daw";
-            $username = "sanjorge";
-            $password = "sanjorge";
+            $servername = "dbfroga.cboi20ycqjno.us-east-1.rds.amazonaws.com";
+            $database = "aws";
+            $username = "admin";
+            $password = "AdminInfor23";
             $conn = new mysqli($servername, $username, $password, $database);
 
             // Konexioa frogatu
