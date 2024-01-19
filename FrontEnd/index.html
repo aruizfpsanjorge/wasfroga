@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de contacto</title>
+
+
+    <link rel="stylesheet" href="css/estilos.css"> 
+</head>
+<body>
+        
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="js/controlador.js"></script>
+
+
+    <header>
+        <h1>BIRT</h1>
+    </header>
+    <section>
+        <div class="form">
+            <form id="form_1" action="index.html" onsubmit="guardar()" method="get">
+                <div class="cont">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ej. Tu nombre" >
+            
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Ej. Tu apellido" >
+            
+                    <label for="Fecha">Fecha de Nacimiento</label>
+                    <input type="date" id="Fecha" placeholder="Ej. 15/15/1990" >
+            
+                    <label for="nombre">Genero</label>
+                    <select name="genero" id="genero">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <input type="submit" value="Enviar">
+            
+                </div>
+               <!-- <button type="button" (click)="guardar()">Guardar</button> -->  
+            </form>
+    
+        </div >
+        
+        <div class="usertable">
+            <table  id="tabla_usuarios">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Fecha Nacimiento</th>
+                        <th>Genero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </div>
+        
+    </section>
+    
+    <footer>
+
+        <h1>BIRT</h1>
+    </footer>
+
+</body>
+</html>

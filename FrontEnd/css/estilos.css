@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3173aa;
+}
+header{
+    padding: 10px;
+    flex: 1 100%;
+}
+section{
+    padding: 10px;
+    flex: 1 100%;
+    display: flex;
+   height: 70%;
+}
+
+.form{
+  width: 50%;
+  padding: 10px;
+
+  flex: 1 100%;
+  border-style: solid;
+  border-color: wheat;
+  padding: 10px;
+  margin: 5px;
+}
+.usertable{
+    flex: 1 100%;
+    border-style: solid;
+    border-color: wheat;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer{
+    padding: 10px;
+    flex: 1 auto;
+
+}
+form{
+	width:50%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+ 
+
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+    display: block;
+
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+table {
+    padding: 10px;
+    flex: 1 100%;
+    margin: auto;
+   
+    background-color: #3173aa;
+    text-align: center;
+  }
+  table th{
+    color:white;  }
+tbody tr:nth-child(odd) {
+    background-color: #57a7e9;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: white;
+  }
+  
+
